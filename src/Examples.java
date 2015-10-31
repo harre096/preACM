@@ -28,6 +28,12 @@ public class Examples {
 		
 		int e = Integer.parseInt(Integer.toString(25,5));   //returns 100
 		int f = Integer.parseInt(Integer.toString(100), 5); //returns 25
+		
+		//BigInteger
+		BigInteger aa = new BigInteger("1993");//returns 1993
+		BigInteger bb = new BigInteger("11", 2); //returns 3
+		String cc = b.toString(2); //returns "11"
+		BigInteger dd = a.add(BigInteger.ONE); //returns 1994
 				
 /*
 		Examples from http://stackoverflow.com/questions/13654671/
